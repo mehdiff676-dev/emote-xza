@@ -10,7 +10,6 @@ from google.protobuf.timestamp_pb2 import Timestamp
 from concurrent.futures import ThreadPoolExecutor
 from threading import Thread
 from Pb2 import DEcwHisPErMsG_pb2, MajoRLoGinrEs_pb2, PorTs_pb2, MajoRLoGinrEq_pb2, sQ_pb2, Team_msg_pb2
-from cfonts import render, say
 from flask import Flask, request, jsonify
 from queue import Queue
 import logging
